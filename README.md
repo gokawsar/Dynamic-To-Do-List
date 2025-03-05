@@ -1,10 +1,10 @@
 # Dynamic To-Do List Application
-**# Green University of Bangladesh**
-# Course work for Lab Report NO #03
-# Course Title: 	Web Programming Lab [CSE 302]                  
-Section: 222 D8 [Lecturer Sir Md. Naimul Pathan] 
-
 Course Work Name: Design and implementation of a dynamic to-do list application using HTML, CSS, and JavaScript.
+
+**Green University of Bangladesh**
+Course work for Lab Report NO #03
+Course Title: 	Web Programming Lab [CSE 302]                  
+Section: 222 D8 [Lecturer Sir Md. Naimul Pathan] 
 
 Welcome to the **Dynamic To-Do List Application** repository! This project is designed to help you stay organized and manage your tasks efficiently with a stylish and responsive interface.
 
@@ -29,7 +29,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/dynamic-to-do-list.git
+    git clone https://github.com/gokawsar/dynamic-to-do-list.git
     ```
 
 2. **Navigate to the project directory**:
