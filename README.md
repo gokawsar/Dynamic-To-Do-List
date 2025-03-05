@@ -50,6 +50,13 @@ To get a local copy up and running, follow these simple steps:
 
 ## Screenshots
 
+- Index page.
+![image](https://github.com/user-attachments/assets/3e7775e4-6974-489b-8e86-d39c8e993679)
+
+- Wireframe Page.
+![image](https://github.com/user-attachments/assets/50dc4e87-681b-405c-a84c-ee6fc045a371)
+
+- VSCode with CO-Pilot while coding.
 ![image](https://github.com/user-attachments/assets/90921614-696f-44b1-87ad-7cc5eadaf3aa)
 
 ## Author
