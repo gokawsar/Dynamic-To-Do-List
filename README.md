@@ -23,6 +23,9 @@ Welcome to the **Dynamic To-Do List Application** repository! This project is de
 - **HTML5**: Semantic structure
 - **CSS3**: Styling and animations
 - **JavaScript**: Functionality and interactivity
+- 
+## View live Vercel deployment
+- https://dynamic-to-do-list.vercel.app/
 
 ## Getting Started
 
