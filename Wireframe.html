@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic To-Do List Wireframe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .box {
+            border: 1px dashed #000;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .hero-section, .container {
+            margin-bottom: 20px;
+        }
+        .hero-section {
+            background: #e0e0e0;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo-placeholder {
+            margin-bottom: 20px;
+        }
+        .container {
+            background: #d0d0d0;
+            padding: 20px;
+        }
+       [type="text"], button, ul {
+            margin-bottom: 10px;
+        }
+        ul {
+            padding: 0;
+            list-style-type: none;
+        }
+        li {
+            background: #c0c0c0;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer:hover {
+            transform: translateY(-5px);
+        }
+        .wireframe-btn, .index-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 5px 10px;
+            background: #00796b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .wireframe-btn:hover, .index-btn:hover {
+            transform: translate(-50%, -5px);
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero-section box">
+        <div class="logo-placeholder box">
+            <img src="logo.png" alt="Your Logo Here" height="70">
+        </div>
+        <h2 class="box">Welcome to the Dynamic To-Do List</h2>
+        <p class="box">Stay organized and accomplish your tasks with our stylish to-do list application.</p>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container box">
+        <!-- Task Input -->
+        <input type="text" id="taskInput" placeholder="Enter a new task..." class="box">
+        <button id="addTaskBtn" class="box">Add Task</button>
+
+        <!-- Task List -->
+        <ul id="taskList" class="box">
+            <!-- Example Task Item -->
+            <li class="box">
+                <input type="checkbox" class="taskCheckbox">
+                <span class="taskText">Sample Task</span>
+                <button class="deleteBtn">Delete</button>
+            </li>
+        </ul>
+
+        <!-- Clear All Button -->
+        <button id="clearAllBtn" class="box">Clear All</button>
+
+        <a href="index.html" class="index-btn">Home</a>
+    </div>
+    <div class="footer">
+        &copy; 2023 Dynamic To-Do List. All rights reserved.
+    </div>
+</body>
+</html>
