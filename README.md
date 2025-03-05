@@ -50,7 +50,7 @@ To get a local copy up and running, follow these simple steps:
 
 ## Screenshots
 
-!Screenshot
+![image](https://github.com/user-attachments/assets/90921614-696f-44b1-87ad-7cc5eadaf3aa)
 
 ## Author
 
